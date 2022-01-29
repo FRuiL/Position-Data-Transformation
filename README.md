@@ -1,18 +1,18 @@
 # Position-data-optimization
 
 
-运行时请打开deliverable.py。function.py为函数文件。
+Open the deliverable.py when running. function.py is a function file.
 
 Function input：
-- 1Q21持仓数据： 将文件直接拖入终端/输入文件路径名；
-- 报告期：手动输入，无格式要求；
-- 选择仓位查看方法：“持股总市值”或“持股数量”二选一；
-- 市场（多选）：上海/深圳/香港联交所；
-- 投资类型（多选）： 1.REITs  2.被动指数型基金 3.股票多空 4.混合债券型二级基金 5.混合债券型一级基金 6.灵活配置型基金 7.偏股混合型基金 8.偏债混合型基金 9.平衡混合型基金 10.普通股票型基金 11.增强指数型基金 12.增强指数型债券基金 13.中长期纯债型基金；
+- 1Q21 position data: drag the file directly into the terminal / enter the file path name;
+- Reporting period: manual entry, no format requirements;
+- Select the position viewing method: "Total Market Value of Holdings" or "Number of Holdings";
+- Market (multiple choices): SSE/SESZ/SEHK;
+- Investment Type (multiple choices)： 1:REITs, 2:Passive Funds, 3:Stocks Long/Short, 4:Debt Hybrid Fund(Secondary Market), 5:Debt Hybrid Fund(Primary Market), 6:Dynamic Asset Allocation Funds, 7:Equity-oriented Hybrid Funds, 8:Debt-oriented Hybrid Funds, 9:Balanced Fund, 10:Equity Fund, 11:Enhanced Index Funds, 12:Enhanced Index Debt Funds, 13:Debt Funds(Medium- and long-term)
              
 Deliverables：
-- 生成文档以“市场+投资类型+仓位查看方法”自动命名，保存在原始文件同一路径下。
+- The generated document is automatically named after "Market + Investment Type + Position Viewing Method" and saved in the same path as the original file.
 
 
-注意：程序没有设置严格的报错环节，请确保输入正确。如果input环节输入有误但也生成了新表格，数据非常可能不准确。
-比如：投资类型想选择REITs(1)、被动指数型基金(2)、股票多空(3)，应该在input中输入“1 2 3”(程序会提示中间以空格分隔)。如果输成了“12 3”，那么输出数据就变成了股票多空(3)和增强指数型债券基金(12)。如果输成了“1 23”那么输出数据就变成了只有REITs (1)。
+Note: The program does not set a strict error reporting link, please make sure that the input is correct. If the input is incorrect but a new table is generated, the data is most likely inaccurate.
+For example, if you want to choose REITs(1), Passive Funds(2), Stocks Long/Short(3), you should enter "1 2 3" in the input. If it loses to "12 3", then the output data becomes Stocks Long/Short(3) and enhanced index bond funds(12). If the output is "1 23" then the output data becomes only REITs(1).
