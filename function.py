@@ -4,9 +4,6 @@ import openpyxl
 from openpyxl.styles import Font
 import os
 
-
-
-
 def data_collec():
 
     #path:Enter the data file path (you can drag the file directly into the terminal)
